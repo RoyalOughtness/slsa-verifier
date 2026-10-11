@@ -3,6 +3,7 @@
 
 # https://github.com/slsa-framework/slsa-verifier
 %global goipath         github.com/slsa-framework/slsa-verifier
+# renovate: datasource=github-releases depName=slsa-framework/slsa-verifier extractVersion=^v(?<version>.*)$
 Version:                2.7.1
 
 %gometa -L -f
